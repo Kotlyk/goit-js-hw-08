@@ -7,9 +7,9 @@ const form = document.querySelector('.feedback-form');
  const message = document.querySelector('.feedback-form textarea');
 
  
-const formData = {
-  email: email.value,
-  message: message.value,
+  const formData = {
+    email: email.value,
+    message: message.value,
   };
 
   function onFormData(evt) {
