@@ -12,7 +12,7 @@ function onPlay({ seconds }) {
 }
 
 
-if (localStorage.value !==0) {
+if (localStorage.length !==0) {
   player.setCurrentTime(localStorage.getItem('videoplayer-current-time'));
   
 }
